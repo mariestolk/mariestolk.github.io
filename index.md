@@ -1,1 +1,3 @@
-## Marie's Blog
+## Index
+
+Welkom op mijn blog.
