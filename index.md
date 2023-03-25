@@ -1,3 +1,3 @@
 ## Index
 
-Welkom op mijn blog.
+Welcome to my blog! Happy to have you here :)
