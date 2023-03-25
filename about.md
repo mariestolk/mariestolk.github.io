@@ -8,4 +8,4 @@ Each week, I'll be posting a new blog post where I'll share a simple exercise or
 
 Thank you for visiting _Exercises for the Mind_. I hope that the exercises and insights I share can help you on your journey to a more productive, balanced, and fulfilling life.
 
-![Image description](images/Pasfoto.jpeg)
+![Image description](images/Pasfoto.jpeg) 
