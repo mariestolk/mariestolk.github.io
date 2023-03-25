@@ -1,11 +1,9 @@
 # About
 
-Welcome to _Exercises for the Mind_!
+"Welcome to  _Exercises for the Mind_! If you're looking for ways to boost your productivity, cultivate a positive mindset, and live a more balanced life, you've come to the right place. I started this blog because I'm passionate about these topics, and I've been studying and reflecting on them for a few years now.
 
-My name is Marie, and I have been studying and discussing books (and lots of youtube videos) about productivity, habit formation, mindset, and living a balanced life for a couple of years now. The topics have taught me lots of life hacks and new ways to look at  and sharing what I learn with others. That's why I created this blog - to share simple exercises and insights that can help you live your best life.
+Through my studies and discussions with a group of friends, I've learned that making small changes to your daily habits can have a big impact on your overall well-being. I believe that everyone can benefit from these insights, whether you're a student, professional, or just someone looking to improve your life.
 
-Each week, I'll be posting a new blog post where I'll share a simple exercise or a snippet on the topic of productivity, mindset, or balance. My goal is to provide actionable tips that you can easily incorporate into your daily routine.
+On this blog, I share simple exercises, book snippets, and insights that have helped me and my friends on our journeys towards a more fulfilling life. My goal is to provide practical tips that you can apply to your own life, and to create a space where we can all learn and grow together.
 
-Thank you for visiting _Exercises for the Mind_. I hope that the exercises and insights I share can help you on your journey to a more productive, balanced, and fulfilling life.
-
-![Image description](images/Pasfoto.jpeg) 
+So if you're ready to take your productivity, mindset, and balance to the next level, join us on this journey!" (And if you are more than ready, make sure to add it to your RSS feed!)
