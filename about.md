@@ -6,4 +6,4 @@ Through book learning, Youtube binge-watching and discussions with friends, I've
 
 So if you're ready to take your productivity, mindset, and balance to the next level, join us on this journey!" (And if you are more than ready, make sure to add it to your RSS feed!)
 
-![Image description](images/Pasfoto.jpg)
+![Image description](images/Pasfoto.jpeg)
