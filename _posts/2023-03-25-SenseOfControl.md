@@ -1,3 +1,10 @@
+# Gaining a Sense of Control
+
+Here's the table of contents:
+
+1. TOC
+{:toc}
+
 ### Exercise
 Your challenge is to not use the words 'have to' for a full day. Whenever you notice you want to use those words ask yourself the following questions: 
 - Who makes it so I _'have to'_ do this? 
