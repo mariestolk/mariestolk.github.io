@@ -1,3 +1,11 @@
 # About
 
-In 2021 haalde ik mijn bachelor in Filosofie. Hoewel mijn opleiding in de filosofie daarmee afgerond is - ik ben geswitched naar Computer Science and Engineering - was ik nog niet klaar met filosofie. Om toch bezig te blijven met filosofische vraagstukken en het schrijven niet te verleren post ik daarom op deze blog met (een soort van) regelmaat wat artikels over onderwerpen die ik interessant vind en die me bezig houden. Hopelijk kom je wat interessants tegen wat jou ook prikkelt, kijk vooral rond :)
+Welcome to _Exercises for the Mind_!
+
+My name is Marie, and I have been studying and discussing books (and lots of youtube videos) about productivity, habit formation, mindset, and living a balanced life for a couple of years now. The topics have taught me lots of life hacks and new ways to look at  and sharing what I learn with others. That's why I created this blog - to share simple exercises and insights that can help you live your best life.
+
+Each week, I'll be posting a new blog post where I'll share a simple exercise or a snippet on the topic of productivity, mindset, or balance. My goal is to provide actionable tips that you can easily incorporate into your daily routine.
+
+Thank you for visiting _Exercises for the Mind_. I hope that the exercises and insights I share can help you on your journey to a more productive, balanced, and fulfilling life.
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
