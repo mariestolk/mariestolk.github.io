@@ -1,9 +1,11 @@
 # Gaining a Sense of Control
 
-Here's the table of contents:
+Feeling like you are not in control of your life? Here is a simple exercise to change your thinking of who is in charge. In this article we will briefly go through:
 
 1. TOC
 {:toc}
+
+Good luck!
 
 ## Exercise
 Your challenge is to not use the words 'have to' for a full day. Whenever you notice you want to use those words ask yourself the following questions: 
