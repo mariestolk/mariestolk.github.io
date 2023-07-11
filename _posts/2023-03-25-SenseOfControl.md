@@ -1,9 +1,6 @@
 # Gaining a Sense of Control
 
-Feeling like you are not in control of your life? Here is a simple exercise to change your thinking of who is in charge. In this article we will briefly go through:
-
-1. TOC
-{:toc}
+Feeling like you are not in control of your life? Here is a simple exercise to change your thinking of who is in charge. In this article we will briefly go through the **exercise**, an **example**, and the **context** in which I found this exercise.
 
 Good luck!
 
