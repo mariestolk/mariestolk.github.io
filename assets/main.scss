@@ -1,62 +1,168 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 ---
 
 @import "{{ site.theme }}";
 
+
+/* ---------- Dark theme ---------- */
+
+$background_color: #121212;
+$surface_color: #1e1e1e;
+$border_color: #444444;
+$text_color: #e0e0e0;
+$muted_text_color: #aaaaaa;
+$link_color: #7fafD1;
+$visited_link_color: #b89acb;
+$code_background_color: #1a1a1a;
+
+html,
+body {
+  background-color: $background_color;
+  color: $text_color;
+}
+
+.site-header {
+  background-color: $background_color;
+  border-top-color: $border_color;
+  border-bottom-color: $border_color;
+}
+
+.site-title,
+.site-title:visited,
+.page-link,
+.post-link,
+.post-link:visited {
+  color: $text_color;
+}
+
+a {
+  color: $link_color;
+}
+
+a:visited {
+  color: $visited_link_color;
+}
+
+.site-footer {
+  background-color: $background_color;
+  border-top-color: $border_color;
+}
+
+.footer-col-wrapper,
+.post-meta {
+  color: $muted_text_color;
+}
+
+blockquote {
+  color: #c8c8c8;
+  border-left-color: $border_color;
+}
+
+pre,
+code,
+.highlight {
+  background-color: $code_background_color;
+  border-color: $border_color;
+  color: #eeeeee;
+}
+
+.highlighter-rouge .highlight {
+  background-color: $code_background_color;
+}
+
+table {
+  color: $text_color;
+}
+
+table th,
+table td {
+  border-color: $border_color;
+}
+
+table tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+table tr:nth-child(odd) {
+  background-color: $background_color;
+}
+
+
+/* ---------- Images and captions ---------- */
+
 .post img {
-        display: block;
-        border:1px solid #021a40;
-        vertical-align: top;
-        margin-left: auto;
-        margin-right: auto;
+  display: block;
+  border: 1px solid $border_color;
+  vertical-align: top;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .post figcaption {
   text-align: center;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-style: italic;
-  color: light-grey;
+  color: $muted_text_color;
 }
 
-.language-python { border-left: 1px solid lightcoral; }
+
+/* ---------- Python code blocks ---------- */
+
+.language-python {
+  border-left: 1px solid lightcoral;
+}
 
 .language-python + .language-plaintext {
-        border-left: 1px solid grey;
-        margin-left: 1rem !important;
+  border-left: 1px solid grey;
+  margin-left: 1rem !important;
 }
-.language-python + .language-plaintext code { background-color: white !important; }
-.language-python + .language-plaintext pre  { background-color: white !important; }
 
-// for Jupyter Notebook HTML Code Cells from https://www.fast.ai/public/css/hyde.css
+.language-python + .language-plaintext code,
+.language-python + .language-plaintext pre {
+  background-color: $code_background_color !important;
+}
 
-.input_area pre, .input_area div {
-        margin-bottom:0.1rem !important;
-        margin-top:0.1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
+
+/* ---------- Jupyter Notebook cells ---------- */
+
+.input_area pre,
+.input_area div {
+  margin-bottom: 0.1rem !important;
+  margin-top: 0.1rem !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  background-color: $code_background_color !important;
+  color: $text_color !important;
 }
-.output_area pre, .output_area div {
-        margin-bottom:0.1rem !important;
-        margin-top:0.1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
-        background-color: white !important;
+
+.output_area pre,
+.output_area div {
+  margin-bottom: 0.1rem !important;
+  margin-top: 0.1rem !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  background-color: $code_background_color !important;
+  color: $text_color !important;
 }
+
 .input_area pre {
-        border-left: 1px solid lightcoral;
+  border-left: 1px solid lightcoral;
 }
+
 .output_area pre {
-        border-left: 1px solid grey;
-        margin-left: 1rem !important;
+  border-left: 1px solid grey;
+  margin-left: 1rem !important;
 }
+
 .codecell {
-        border-right: 2px solid lightgrey;
-        margin-bottom:1rem !important;
-        margin-top:1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
+  border-right: 2px solid $border_color;
+  margin-bottom: 1rem !important;
+  margin-top: 1rem !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
 }
 
-.codecell table { width: auto; }
-
+.codecell table {
+  width: auto;
+}
