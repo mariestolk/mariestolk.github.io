@@ -13,7 +13,7 @@ The set of all digits that could still be placed in a cell is called its **candi
 We can determine a cell's initial candidate set by starting with all digits from `1` to `9` and removing the digits that already appear in its row, column, or box:
 
 ```text
-initial candidate set
+initial candidate set 
 = all digits from 1 to 9
 - digits already in the row
 - digits already in the column
