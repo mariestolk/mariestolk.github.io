@@ -7,3 +7,10 @@ _site
 .jekyll-metadata
 vendor
 _notebooks/.ipynb_checkpoints
+
+colorpalet.png
+
+.python-version
+*.toml
+*.lock
+*.py
