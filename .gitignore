@@ -9,6 +9,7 @@ vendor
 _notebooks/.ipynb_checkpoints
 
 colorpalet.png
+_drafts
 
 .python-version
 *.toml
