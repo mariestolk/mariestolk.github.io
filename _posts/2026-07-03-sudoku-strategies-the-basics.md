@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The basics of Sudoku"
+title: "Sudoku strategies: The basics of Sudoku"
 date: 2026-07-03 00:00:00 +0200
 ---
 

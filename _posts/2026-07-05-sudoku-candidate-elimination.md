@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Eliminating candidates in Sudoku"
+title: "Sudoku strategies: Eliminating candidates in Sudoku"
 date: 2026-07-05 00:00:00 +0200
 ---
 

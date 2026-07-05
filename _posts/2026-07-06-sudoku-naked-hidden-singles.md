@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Naked singles and hidden singles in Sudoku"
+title: "Sudoku strategies: Naked singles and hidden singles in Sudoku"
 date: 2026-07-06 00:00:00 +0200
 ---
 

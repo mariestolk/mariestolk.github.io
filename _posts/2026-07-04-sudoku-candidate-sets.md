@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Candidate sets in Sudoku"
+title: "Sudoku strategies: Candidate sets in Sudoku"
 date: 2026-07-04 00:00:00 +0200
 ---
 
