@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Candidate sets in Sudoku"
+date: 2026-07-04 00:00:00 +0200
+---
+
 # Candidate sets in Sudoku
 
 ## What is a candidate set?
@@ -10,7 +16,7 @@ Candidate sets follow directly from this rule. For every empty cell, we can ask 
 
 The set of all digits that could still be placed in a cell is called its **candidate set**.
 
-We can determine a cell's initial candidate set by starting with all digits from `1` to `9` and removing the digits that already appear in its row, column, or box:
+We can determine a cell's initial candidate set by starting with all digits from $1$ to $9$ and removing the digits that already appear in its row, column, or box:
 
 ```text
 initial candidate set 
@@ -30,7 +36,7 @@ The image below shows an example candidate set for the highlighted cell.
   >
 </p>
 
-For this example, only the row is highlighted. The digits `1`, `3`, `4`, `6`, `7`, and `9` already appear in the row, so they cannot be candidates for the highlighted cell. The remaining digits are `2`, `5`, and `8`.
+For this example, only the row is highlighted. The digits $1$, $3$, $4$, $6$, $7$, and $9$ already appear in the row, so they cannot be candidates for the highlighted cell. The remaining digits are $2$, $5$, and $8$.
 
 This initial candidate set is only a starting point. As we apply Sudoku-solving strategies, we may be able to eliminate additional candidates.
 

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "The basics of Sudoku"
+date: 2026-07-03 00:00:00 +0200
+---
+
 # The basics of Sudoku
 
 ## Why am I describing Sudoku-solving strategies?
@@ -8,7 +14,7 @@ I am building a [Sudoku solver](https://github.com/mariestolk/sudoku-solver/tree
 
 I am going to assume that you are at least somewhat familiar with Sudoku. Even so, I will use this post to take a closer look at how the puzzle works.
 
-A Sudoku is a number-placement puzzle. It consists of a 9 × 9 grid divided into nine 3 × 3 boxes. To complete a classic Sudoku, you must assign a digit from `1` to `9` to every cell.
+A Sudoku is a number-placement puzzle. It consists of a 9 × 9 grid divided into nine 3 × 3 boxes. To complete a classic Sudoku, you must assign a digit from $1$ to $9$ to every cell.
 
 There is one basic rule:
 
@@ -20,9 +26,9 @@ That's all you need to get started.
 
 Each position in the Sudoku grid is called a **cell**. Some cells already contain a digit when the puzzle begins. These starting digits are called **givens** or **clues** and cannot be changed.
 
-For every empty cell, we can determine which digits from `1` to `9` are still possible without breaking the basic rule. These possible digits form the cell's **candidate set**.
+For every empty cell, we can determine which digits from $1$ to $9$ are still possible without breaking the basic rule. These possible digits form the cell's **candidate set**.
 
-For example, if a cell's row already contains `1`, `4`, and `7`, those digits cannot be candidates for that cell. We can apply the same reasoning to its column and box. Solving strategies work by reducing these candidate sets until only one valid digit remains, or until the remaining candidates reveal a broader pattern.
+For example, if a cell's row already contains $1$, $4$, and $7$, those digits cannot be candidates for that cell. We can apply the same reasoning to its column and box. Solving strategies work by reducing these candidate sets until only one valid digit remains, or until the remaining candidates reveal a broader pattern.
 
 ## The houses of Sudoku
 
