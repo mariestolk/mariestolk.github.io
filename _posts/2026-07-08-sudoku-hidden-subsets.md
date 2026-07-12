@@ -6,7 +6,7 @@ date: 2026-07-08 00:00:00 +0200
 
 # Sudoku strategies: from naked singles to naked subsets
 
-In the [previous post]({% post_url 2026-07-06-sudoku-naked-hidden-singles %}), we looked at hidden singles: a candidate that appears in only one cell within a house, making that cell its only possible location. Just as a naked single is the simplest form of a [naked subset]({% post_url 2026-07-06-sudoku-naked-subsets %}), a hidden single is the simplest form of a broader family of techniques called hidden subsets.
+In the [previous post]({% post_url 2026-07-06-sudoku-naked-hidden-singles %}), we looked at hidden singles: a candidate that appears in only one cell within a house, making that cell its only possible location. Just as a naked single is the simplest form of a [naked subset]({% post_url 2026-07-07-sudoku-naked-subsets %}), a hidden single is the simplest form of a broader family of techniques called hidden subsets.
 
 > A **hidden subset** occurs when a group of $n$ candidates within the same house appears only in the same $n$ cells. Those candidates must occupy those cells in some order, which means all other candidates can be removed from those cells.
 
