@@ -12,7 +12,7 @@ In the [previous post]({% post_url 2026-07-06-sudoku-naked-hidden-singles %}), w
 
 Let's look at an example to get a feeling for it.
 
-In the highlighted block below, the three highlighted pink cells contain the candidate sets $\{2,4\}$, $\{2,6\}$, and $\{4,6\}$. Together, these cells contain only the digits $2$, $4$, and $6$, so they form a hidden triple. The cells do not each need to contain the same candidates; what matters is that, taken together, they contain exactly these three digits. Since $2$, $4$, and $6$ must occupy those three cells in some order, any other candidates in those cells can be eliminated.
+In the highlighted block below, the digits $2$, $4$, and $6$ appear only in the highlighted pink cells. Together, these digits must therefore occupy those three cells in some order, forming a hidden triple. The cells may also contain other candidates, but those candidates can be removed because the cells are reserved for $2$, $4$, and $6$.
 
 <p align="center">
   <img
